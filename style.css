@@ -1,0 +1,130 @@
+body
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 25% 50% 25%;
+    grid-template-areas: 
+    "aside header"
+    "aside section"
+    "footer footer";
+}
+
+header
+{
+    grid-area: header;
+    border: 3px red solid;
+}
+
+section
+{
+    border: 3px blue solid;
+}
+
+aside
+{
+    grid-area: aside;
+    border: 3px green solid;
+}
+
+.photoID
+{
+    height: 90%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.imgSocial
+{
+    height: 60%;
+    width: 60%;
+    float: right;
+}
+
+.imgManuel
+{
+    height: 60%;
+    width: 60%;
+    float: right;
+}
+
+.imgJauge
+{
+    height: 60%;
+    width: 60%;
+    float: right;
+}
+
+.imgDFrance
+{
+    height: 60%;
+    width: 60%;
+    float: right;
+}
+
+.imgJaugeFrance
+{
+    height: 60%;
+    width: 60%;
+    float: right;
+}
+
+.imgDAngleterre
+{
+    height: 60%;
+    width: 60%;
+    float: right;
+}
+
+.imgJaugeAngleterre
+{
+    height: 60%;
+    width: 60%;
+    float: right;
+}
+
+.imgDEspagne
+{
+    height: 60%;
+    width: 60%;
+    float: right;
+}
+
+.imgJaugeEspagne
+{
+    height: 60%;
+    width: 60%;
+    float: right;
+}
+
+section
+{
+    grid-area: section;
+}
+
+footer
+{
+    grid-area: footer;
+    border: 3px yellow solid;
+}
+
+.imgGPS
+{
+    height: 10%;
+    width: 10%;
+    float: right;
+}
+
+.imgTel
+{
+    height: 10%;
+    width: 10%;
+    float: right;
+}
+
+.imgEmail
+{
+    height: 10%;
+    width: 10%;
+    float: right;
+}
